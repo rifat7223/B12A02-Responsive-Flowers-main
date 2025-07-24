@@ -99,7 +99,31 @@
     font-size: 1.5rem;
 }
 
+/* plant lover */
 
+.flower-lover{
+    display: flex;
+    margin-top: 150px;
+    gap: 80px;
+   
+}
+.flower-lover-tittle{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.flower-lover-description{
+    margin-top: 30px;
+}
+.flower-lover-img{
+    position: relative;
+    width: 100%;
+}
+.flower-lover-icon{
+    position: absolute;
+    top: -70px;
+   right: 20px;
+    width: 30%;
+}
 /* responsibe */
   @media screen and (max-width: 576px) {
     /* Navbar */
@@ -177,8 +201,29 @@
     .plant-content-tittle {
         font-size: 2rem;
     }
-
-    
+/* flower lover */
+.flower-lover{
+    margin-top: 25px;
+   
+}
+.flower-lover{
+   flex-direction: column;
+}
+.flower-lover-icon{
+    display: none;
+}
+    .flower-lover-img{
+         width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .flower-lover-tittle{
+        font-size: 2rem;
+    }
+    .flower-lover-description{
+        margin: 5px;
+    }
 }
 
    
