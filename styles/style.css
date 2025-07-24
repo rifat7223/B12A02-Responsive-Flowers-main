@@ -121,7 +121,8 @@
 .flower-lover-icon{
     position: absolute;
     top: -70px;
-   right: 20px;
+    left: 440px;
+  
     width: 30%;
 }
 /* responsibe */
@@ -207,6 +208,7 @@
    
 }
 .flower-lover{
+    display: flex;
    flex-direction: column;
 }
 .flower-lover-icon{
