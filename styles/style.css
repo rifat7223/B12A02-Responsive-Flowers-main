@@ -7,7 +7,16 @@
     max-width: 1240px;
     margin: 0 auto;
 }
-
+/* primary color */
+.primary-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+.btn-primary{
+    background-color: #E95A08;
+    color: white;
+    padding: 20px 110px;
+    border: none;
+}
 
 /* header section */
 /* navbar */
@@ -50,33 +59,127 @@
     color: #E95A08;
 }
 
-.banner-description{
-    color: rgba(0, 0, 0, 0.5);
-}
+
+    
+
 /* banner img */
 .banner-img{
     width: 100%;
 }
+/* our plant */
+.card-img{
+    width: 100%;
+}
+.plant-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.plant-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.plant-content{
+    text-align: center;
+}
+.plant-content-tittle{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.plant-card-content{
+    margin-left: 70px;
+}
+.plant-card-content-tittle{
+    font-size: 1.5rem;
+    
+}
+.plant-card-content-descrption{
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
 
 
 /* responsibe */
-@media screen and (max-width:576px) {
-    .nav-links{
-        display: none;
-    }
-    .navbar{
-        display: flex;
+  @media screen and (max-width: 576px) {
+    /* Navbar */
+    .navbar {
+        
         align-items: center;
-        margin: 20px;
-      
-
+        gap: 10px;
+        padding: 10px 0;
     }
+
     
-  /* banner secton */
-  .banner{
-    display: flex;
-    flex-direction: column-reverse;
-    margin: 20px;
-  }
+
+    .nav-links {
+        display: none;
+        
+    }
+
+    /* Banner */
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .banner-content {
+        padding: 0 10px;
+    }
+
+    .banner-tittle {
+        font-size: 2rem;
+        
+    }
+
+    .tittle {
+        font-size: 2.2rem;
+    }
+
+    .banner-img {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    /* Plant Cards Section */
+    .plant-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .plant-card {
+        padding: 10px;
+    }
+
+    .card-img {
+        width: 100%;
+    }
+
+    .plant-card-content {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .btn-primary {
+        padding: 10px 20px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* Text adjustments */
+    .plant-content {
+        padding: 0 10px;
+    }
+
+    .plant-content-tittle {
+        font-size: 2rem;
+    }
+
     
 }
+
+   
+
