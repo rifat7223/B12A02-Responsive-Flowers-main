@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Shop</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
     <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="inter">
     <header class="header">
         <nav class="navbar">
             <div class="nav-icon">
@@ -26,9 +32,9 @@
     </header>
     <main class="main">
         <!-- banner section -->
-         <div class="banner">
-            <div class="banner-content">
-              <h1 class="banner-tittle">ALWAYS <span class="tittle">FRESH <br>FLOWERS</span></h1>
+         <div class="hero-banner">
+            <div class="hero-banner-content">
+              <h1 class="hero-banner-tittle">ALWAYS <span class="tittle">FRESH <br>FLOWERS</span></h1>
                 <p class="banner-description primary-color">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
             <div class="banner-img">
@@ -120,8 +126,84 @@
             </ul>
             </div>
            </div>
+           <!-- latest deal -->
+            <section>
+                <div class="latest-deal-content">
+                    <h1 class="latest-deal-tittle"><span style="color: rgb(233, 90, 8);">Latest</span> Deals</h1>
+                    <p class="latest-deal-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                </div>
+                
+
+              <!-- latest deal img -->
+                 <div class="container">
+    <div class="left-column">
+      <div class="promo-card small" style="background-image: url('./assets/deal-bloom.png');">
+        <div class="text">
+          <p class="discount">60% Off | <strong>Bloom Plant</strong></p>
+          <a href="#">Shop Now</a>
+        </div>
+      </div>
+      <div class="promo-card small" style="background-image: url('./assets/deal-ana.png');">
+        <div class="text">
+          <p class="discount">30% Off | <strong>Ana Plant</strong></p>
+          <a href="#">Shop Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="promo-card large" style="background-image: url('./assets/deal-zabo.png');">
+      <div class="text">
+        <p class="discount">25% Off | <strong>Zabo Plant</strong></p>
+        <a href="#">Shop Now</a>
+      </div>
+    </div>
+  </div>
+            </section>
     </main>
-    <footer></footer>
+    
+
+  <!-- Footer Section -->
+ 
+   <section class="banner">
+    <h1 class="banner-tittle">Join the colorful Bunch</h1>
+    <div class="newsletter">
+      <input type="email" placeholder="Write email" />
+      <button>Subscribe</button>
+    </div>
+  </section>
+
+
+
+   <footer class="footer">
+    <div class="footer-left">
+      <img src="assets/logo.png" alt="Logo" class="logo" />
+      <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+    </div>
+
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Help Center</a></li>
+      </ul>
+    </div>
+
+    <div class="social-icons">
+      <img src="assets/icon-facebook.png" alt="">
+      <img src="assets/icon-linkedin.png" alt="">
+      <img src="assets/icon-twitter.png" alt="">
+      <img src="assets/icon-youtube.png" alt="">
+    </div>
+  </footer>
     
 </body>
 </html>
